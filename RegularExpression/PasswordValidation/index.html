@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>PasswordValidation</title>
+</head>
+
+<body>
+    <div class="input-wrapper">
+        <input type="text" class="btn" placeholder="Your password">
+        <div class="input-icons">
+            <i class="fa fa-check"></i>
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="check-list">
+            <div class="check-item  check-length">
+                <i class="fa fa-circle"></i> At least 8 characters
+            </div>
+            <div class="check-item check-upper">
+                <i class="fa fa-circle"></i> Contains at least 1 uppercase
+            </div>
+            <div class="check-item check-number">
+                <i class="fa fa-circle"></i> Contains at least 1 number
+            </div>
+            <div class="check-item check-special">
+                <i class="fa fa-circle"></i> Contains at least 1 special characters
+            </div>
+
+        </div>
+    </div>
+
+    <script src="starter.js"></script>
+</body>
+
+</html>

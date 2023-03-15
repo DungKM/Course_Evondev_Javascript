@@ -1,0 +1,6 @@
+ npm install pug
+ npm install pug-cli -g
+ pug index.pug --watch
+pug index.pug --watch --pretty
+pug shop.pug --watch --pretty
+ => làm đẹp lại code

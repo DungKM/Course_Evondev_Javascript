@@ -1,0 +1,21 @@
+include ./views/mixin
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title HTML CSS Master
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet")
+    link(href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&amp;display=swap" rel="stylesheet")
+    link(rel="stylesheet" href="./css/main.css")
+    body 
+        .container
+            .tour-list 
+              +tourItem("https://images.unsplash.com/photo-1670272501500-1cb2a4155076?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80","From $40"," Thailands Ayutthaya Temples Cruise from Bangkok Thailands Ayutthaya Temples Cruise from Bangkok", 4.8, 20, "9 hour", 78)
+              +tourItem("https://images.unsplash.com/photo-1677831614059-0d651aac18a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=866&q=80","From $60"," New Word Temples Cruise from Bangkok Thailands Ayutthaya Temples Cruise from Bangkok",4.5, 30, "10 hour", 80)
+              +tourItem("https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80","From $60"," New Word Temples Cruise from Bangkok Thailands Ayutthaya Temples Cruise from Bangkok",4.5, 30, "10 hour", 80)
+              

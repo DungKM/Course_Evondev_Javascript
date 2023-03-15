@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.boxed{
+    border: 1px solid;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+}

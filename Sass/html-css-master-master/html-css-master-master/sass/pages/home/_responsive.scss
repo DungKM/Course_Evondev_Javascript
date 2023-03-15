@@ -1,0 +1,102 @@
+  
+  @media screen and (max-width: 767.98px) {
+    .tour-list {
+      flex-direction: column;
+    }
+  }
+  
+  /* Popular */
+  /* align-items: start end center baseline stretch ;
+    justify-content: start end center space-around space-between
+    */
+  /* track-line: 1 -1 */
+  /* grid-template-columns: value value value ... n-value; */
+  /* grid-template-columns: 270px 270px 270px 270px;
+    grid-template-columns: 25% 25% 25% 25%; */
+  /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr); */
+  /* grid-template-columns: 200px repeat(2, 1fr) 300px; */
+  /* grid-auto-flow: column; */
+  /* grid-auto-columns: 1fr; */
+  /* 1fr = fraction unit */
+ 
+  @media screen and (min-width: 1024px) {
+    .popular-list {
+      margin-bottom: 70px;
+    }
+  }
+  
+ 
+  
+ 
+  
+  @media screen and (min-width: 768px) {
+    .footer-column:first-child {
+      max-width: 268px;
+    }
+  }
+  @media screen and (max-width: 767.98px) {
+    .gem-list {
+      grid-template-rows: 100px 100px 70px;
+    }
+    .popular-list {
+      --columns: 1;
+    }
+    .heading {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+    .tour-title {
+      font-size: 16px;
+      margin-bottom: 12px;
+    }
+    .tour-button,
+    .tour-rating {
+      font-size: 12px;
+    }
+    .tour-content {
+      padding: 17px 17px 9px;
+    }
+    .tour-image {
+      height: 211px;
+    }
+    .diamond {
+      padding: 30px 0;
+    }
+    .diamond-list {
+      grid-template-columns: 1fr;
+      grid-template-rows: none;
+      grid-auto-flow: row;
+      grid-auto-rows: 148px;
+      gap: 16px;
+    }
+    .diamond-item {
+      padding: 8px;
+    }
+    .diamond-all {
+      margin-top: 30px;
+      margin-bottom: 0;
+      font-size: 16px;
+      padding: 4px 20px;
+    }
+    .footer {
+      padding: 30px 0;
+    }
+    .footer-top {
+      padding-bottom: 30px;
+    }
+    .footer-bottom,
+    .footer-columns {
+      flex-direction: column;
+    }
+    .footer-columns {
+      gap: 40px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023.98px) {
+    .popular-list,
+    .tour-list {
+      --columns: 2;
+    }
+  }
+  

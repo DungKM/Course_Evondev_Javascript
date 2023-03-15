@@ -1,0 +1,13 @@
+extends ./views/layout/layout-tour.pug
+block vars
+  - var title = 'Homepage';
+append head
+  link(rel="stylesheet" href="./css/main.css")
+
+block main
+  main
+    include ./views/home/TopTours
+    include ./views/home/Popular
+    include ./views/home/Gem
+    include ./views/home/Diamond
+
